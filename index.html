@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>library</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
     <div class="main">
         <div class="header">
             <h1>Bookhub</h1>
+            <button id="add-book-btn">Add a book</button>
         </div>
-        <div id="output-book"></div>
-        <div class="main-content"></div>
+        <!--the book will out on on the div with id=output-->
+        <div id="output-book" class="output-book">
+          <h2>Books to read</h2>
+        </div>
+        <!--Here is a modal box with input to add books-->
         <div id="popup-box" class="popup-box">
             <div id="popup" class="popup-content">
                 <label for="title">Title</label>
                 <input type="text" id="title" placeholder="Book tittle" required>
-                <label>AUthor</label>
-                <input type="text" id="author" placeholder="autor" required>
-                <textarea id="description" minlength="100">Description</textarea>
+                <label>Author</label>
+                <input type="text" id="author" placeholder="Book autor" required>
+                <textarea id="description" minlength="100" required>Description</textarea>
                 <button id="add-btn">Add</button>
             </div>
         </div>
