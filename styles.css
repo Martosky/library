@@ -96,5 +96,6 @@ span:hover{
     background-color: rgba(0, 0, 0, 0.4);
     color: red;
     border-radius: 50%;
+    cursor: pointer;
     
 }
