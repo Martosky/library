@@ -4,6 +4,7 @@ const inputTitle = document.getElementById("title");
 const inputAuthor = document.getElementById("author")
 const description = document.getElementById("description")
 const popup = document.getElementById("popup-box")
+const date = document.getElementById("date");
 
 const myFunction = () => {
     popup.style.display = "block"
@@ -25,5 +26,5 @@ const addBook = () => {
     const inputTItle = inputTitle.value;
     const inputAuthor = inputAuthor.value;
     const description = description.value;
-    
+
 }
