@@ -20,3 +20,10 @@ window.addEventListener("click", (e)=>{
         e.target.style.display = "none"
     }
 })
+
+const addBook = () => {
+    const inputTItle = inputTitle.value;
+    const inputAuthor = inputAuthor.value;
+    const description = description.value;
+    
+}
